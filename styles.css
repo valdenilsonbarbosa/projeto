@@ -1,0 +1,78 @@
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #f70606; /* Cor de fundo do cabeçalho */
+  color: white; /* Cor do texto */
+  display: flex; /* Para alinhar os itens na horizontal */
+  justify-content: space-between; /* Espaçamento entre os itens */
+  align-items: center; /* Alinhar os itens verticalmente */
+  padding: 10px 20px; /* Espaçamento interno */
+  position: fixed; /* Fixa o cabeçalho no topo */
+  top: 0; /* Fixa no topo da página */
+  width: 100%; /* Garante que o cabeçalho ocupe toda a largura da tela */
+  z-index: 500; /* Garante que o cabeçalho fique acima de outros conteúdos */
+  height: 80px; /* Define uma altura para o cabeçalho */
+}
+
+
+
+/* Estilos para o menu de navegação */
+nav ul {
+  list-style: none; /* Remove os marcadores */
+  display: flex; /* Alinha os itens do menu horizontalmente */
+}
+
+nav ul li {
+  margin-left: 20px; /* Espaçamento entre os itens do menu */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: white; /* Cor do texto */
+  font-size: 18px; /* Tamanho da fonte */
+}
+
+nav ul li a:hover {
+  color: #f0a500; /* Cor quando o link é hovered */
+}
+
+/* Estilos para as seções */
+section {
+  padding-top: 70px; /* Adiciona um espaço para que o conteúdo não fique atrás do cabeçalho fixo */
+  min-height: 100vh; /* Garante que cada seção tenha pelo menos a altura da tela */
+}
+
+/* Estilos para cada seção */
+section#home {
+ 
+  background-size: 2140px;
+  background-image: url(downl.jpg);
+  width: 100%;
+}
+
+section#sobre {
+  font-size: 40px;
+  
+}
+
+section#serviços {
+  font-size: 40px;
+ 
+}
+
+section#blog {
+  font-size: 40px;
+ 
+}
+img{
+  padding: 120px;
+  left: 0px;
+  width:100% ;
+}
+
